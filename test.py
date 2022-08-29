@@ -1,6 +1,9 @@
+from pyrsistent import b
 
 
-def display():
-    print("It's End of the everything ")
+def add(a,b):
+    c=a+b
+    return c
 
-display()
+result=add(10,20)
+print("Result : ",result)
